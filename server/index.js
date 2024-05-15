@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
-app.get("/",(req,res)=>{res.json({"message" : "Hey this is me testing env"});})
+app.get("/",(req,res)=>{res.json({"message" : "Hey this is me with yaml"});})
 
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
